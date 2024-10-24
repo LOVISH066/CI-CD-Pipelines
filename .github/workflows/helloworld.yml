@@ -11,5 +11,7 @@ jobs:
   hello_world:
     runs-on: ubuntu-latest
     steps:
-      - name: "Print CI CD"
-        run: echo "Hello CI CD"
+      - name: "show date"
+        run: date
+        
+
